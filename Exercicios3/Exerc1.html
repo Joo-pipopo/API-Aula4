@@ -7,13 +7,36 @@
 <body>
     <center>
         
-    Nome do paciente: <input type="text"><br><br>
-    Registro Hospitalar <input type="text"> <br><br>
-    Data de inclusão: <input type="date" name="dtInc" id=""><br><br>
-    Data de Nascimento: <input type="date" name="dtNasc" id=""><br><br>
-    Email: <input type="email" name="" id=""><br><br>
-    Gênero: <input type="radio" name="radio1" id="" >
-     <input type="radio" name="radio1" id="" value="Masculino">
+    <form action="">
+
+        Nome do paciente: <input type="text"><br><br>
+        Registro Hospitalar <input type="text"> <br><br>
+        Data de inclusão: <input type="date" name="dtInc" id=""><br><br>
+        Data de Nascimento: <input type="date" name="dtNasc" id=""><br><br>
+        Email: <input type="email" name="" id=""><br><br>
+        Gênero: <br>
+        Feminino<input type="radio" name="radio1" id="" value="Feminino">
+        Masculino<input type="radio" name="radio1" id="" value="Masculino">
+        <br><br>
+        Raça declarada: <select name="raca">
+            <option value=""></option>
+            <option value="Branca">Branca</option>
+            <option value="Negra">Negra</option>
+            <option value="Parda">Parda</option>
+            <option value="Amarela">Amarela</option>
+            <option value="Indigena">Indigena</option> 
+            <option value="Desconhecida">Desconhecida</option>
+        </select>
+        <p>Como ficou sabendo do estudo:</p>
+        <input type="checkbox" name="" id="">Convidado<br>
+        <input type="checkbox" name="" id="">Internet<br>
+        <input type="checkbox" name="" id="">Amigos<br>
+        <input type="checkbox" name="" id="">Familiares<br>
+        <input type="checkbox" name="" id="">Outros
+        <br><br>
+        <button>Enviar</button>
+
+    </form>
     </center>
 
 </body>
